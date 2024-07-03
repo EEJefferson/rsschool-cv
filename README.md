@@ -1,1 +1,1 @@
-https://github.com/EEJefferson/rsschool-cv
+https://eejefferson.github.io/rsschool-cv/
