@@ -1,10 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.ico" />
 </head>
 <body>
+    <header class="header">
+        <div class="menu-wrapper">
+        <nav class="nav-list">
+            <ul class="menu">
+                <li class="menu_item"><a href="#contacts" class="menu_link">Contacts</a></li>
+                <li class="menu_item"><a href="#aboutme" class="menu_link">About me</a></li>
+                <li class="menu_item"><a href="#skills" class="menu_link">Skills</a></li>
+                <li class="menu_item"><a href="#myprojects" class="menu_link">My projects</a></li>
+                <li class="menu_item"><a href="#education" class="menu_link">Education</a></li>
+            </ul>
+        </nav> 
+        </div>       
+    </header>
+    <main class="main">
+        <section class="section" >
+            <hr class="bold">
+            <h1 class="name">Eugene Panasevich</h1>
+            <hr>
+            <img src="assets/ME.png" alt="it'smyme">
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <hr>
+            <ul>
+                <li>My Discord: EEJefferson(@EEJefferson)</li>
+                <li>My Email: <a href="mailto:maksim.panasievich@mail.ru" class="link">maksim.panasievich@mail.ru</a></li>
+            </ul>
+        </section>
+        <section class="section" id="aboutme">
+            <h2>About me</h2>
+            <hr>
+            <p><span class="italic">Male, 20 years, date of birth: February 1, 2004</span><br>
+            Strengths: critical thinkig, communicability, assiduity
+            <br>Hi, be free to address me. I really want to take this course and learn all aspects of JS including react.js and node.js</p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <hr>
+            <ul class="skill-list">
+                <li>Already have an experience in
+                    <ul class="skill-list-item">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </li>
+                <li>Languages
+                    <ul class="skill-list-item">
+                        <li>Russian - Native</li>
+                        <li>Englisgh - B2</li>
+                        <li>German - A2</li>
+                        <li>Polish - A1</li>
+                    </ul>
+                </li>
+                <li>Skills
+                    <ul class="skill-list-item">
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="myprojects">
+            <h2>My projects</h2>
+            <hr>
+            <p>My first trial projects: <a class="link" href="https://eejefferson.github.io/">Here</a>
+            <br>My GitHub Page: <a class="link" href="https://github.com/EEJefferson">Here</a></p>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <hr>
+            <p><span class="font-bold">2021 Brest Cadet School</span></p>
+            <hr>
+            <p><span class="italic">Incomplete higher education</span>
+            <br><span class="font-bold">2025 Belarusian State University, Faculty of International Relations</span></p>
+        </section>
+    </main>
+    <footer class="section">
+        <hr class="bold">
+        <div class="wrapper">
+            <div class="wrapper_item">
+                <a href="https://github.com/EEJefferson" class="link">© Eugene Panasevich, 2008</a>
+            </div>
+            <div class="wrapper_item_2">
+                <div class="items">
+                    <img class="logo" src="assets/загрузка.png" alt="logo">
+                </div>
+                <div class="items"> <a class="link" href="https://rs.school/courses/javascript-ru">Link to the Course</a></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
