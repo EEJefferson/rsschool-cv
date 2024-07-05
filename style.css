@@ -18,7 +18,6 @@ html {
 }
 .section{
   margin: 0 auto;
-  margin-left: 10px;
 }
 .link{
   color: #d11010;
@@ -87,4 +86,9 @@ padding-left: 20px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
