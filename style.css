@@ -1,6 +1,86 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Museo Sans";
+  font-family: "Roboto", sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+html {
+  scroll-behavior: smooth;
+}
+.section{
+  margin: 0 auto;
+  margin-left: 10px;
+}
+.link{
+  color: #d11010;
+  text-decoration: none;
+  &:hover {
+    color:wheat ;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  .menu_item {
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: #000 solid 1px;
+    .menu_link {
+      color: #000;
+      text-decoration: none;
+      &:hover {
+        color:wheat ;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+.skill-list {
+  font-weight: bold;
+  list-style-type: none;
+  .skill-list-item {
+    margin-bottom: 15px;
+    li{
+      font-weight: normal;
+    }
+  }
+}
+hr{
+margin-bottom: 20px;
+padding-left: 20px;
+}
+.bold{
+  border-color:gray;
+  border: 1px solid;
+  }
+.italic{
+  font-style: italic;
+}
+.font-bold{
+  font-weight: bold;
+}
+.wrapper{
+  display: flex;
+  justify-content: start;
+  .wrapper_item_2{
+    display: flex;
+    margin-left: 70px;
+    .items{
+      margin-right: 20px;
+    }
+}
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
