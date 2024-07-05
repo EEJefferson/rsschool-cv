@@ -12,6 +12,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.menu-wrapper{
+  display: flex;
+  justify-content: center;
+}
 .section{
   margin: 0 auto;
   margin-left: 10px;
