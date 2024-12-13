@@ -1,5 +1,5 @@
 # Eugene Panasevich
-![Photograph](https://github.com/EEJefferson/rsschool-cv/blob/gh-pages/ME.png)
+![Photograph](https://github.com/EEJefferson/rsschool-cv/blob/gh-pages/assets/ME.png)
 
 ## Contacts
 My Discord: EEJefferson(@EEJefferson)  
